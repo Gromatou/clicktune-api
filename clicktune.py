@@ -40,8 +40,12 @@ class clicktune:
                     for j in range (len(listoflinks)):
                         if (listoflinks[j] == leboncoin_link):listoflinks[j] = clictune_link
         return listoflinks
+
+##################################################################
+#################### here exemple how to use #####################
+##################################################################
 exemple = clicktune()
-listoflinks=["https://www.leboncoin.fr/recherche?text=remplier","https://www.leboncoin.fr/recherche?text=remplirraaa"]
+listoflinks=["https://www.leboncoin.fr/recherche?text=remplier","https://www.leboncoin.fr/recherche?text=remplirraaa"] #enter your list of link here
 print(exemple.add_links(listoflinks))
 
 
